@@ -65,4 +65,11 @@ public : // akses modifier
         }
         
 }
+    bool isEmpaty()
+    {
+        return top == NULL;
+    }
+};
+
+
 }
