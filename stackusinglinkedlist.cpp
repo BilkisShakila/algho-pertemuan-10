@@ -95,37 +95,5 @@ int main()
             cin >> value;
             stact.push(value);
             break;
-        case 2:
-            if (!stact.isEmpaty())
-            {
-                stact.pop();
-            }
-            else;
-            {
-                cout << "stact is Empty. Cannot pop."
-                << endl;
-            }
-            break;
-        case 3:
-            if (!stact.isEmpaty())
-            {
-                stact.peek();
-            }
-            else
-            {
-                cout << "Stact is Empty. No top value."
-                << endl;
-            }
-            break;
-        case 4:
-            cout << "Exiting Program. " << endl;
-            break;
-        default:
-            cout << "Invalid choice. Try again]." << endl;
-            break;
-
-        }
-        cout << endl;
-    }
-    return 0;
+       
 }
