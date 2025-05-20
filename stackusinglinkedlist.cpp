@@ -36,5 +36,5 @@ public : // akses modifier
         return value;
     }
 
-   
+    
 }
