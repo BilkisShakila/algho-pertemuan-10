@@ -95,5 +95,16 @@ int main()
             cin >> value;
             stact.push(value);
             break;
-       
+        case 2:
+            if (!stact.isEmpaty())
+            {
+                stact.pop();
+            }
+            else;
+            {
+                cout << "stact is Empty. Cannot pop."
+                << endl;
+            }
+            break;
+        }
 }
