@@ -36,5 +36,16 @@ public : // akses modifier
         return value;
     }
 
+    void pop()
+    {
+        if (isEmpaty())
+        {
+            cout << "Stack is Empaty" << endl;
+        }
+
+        cout << "Popped Value: " << top->data << endl;
+        top = top->next;
+    }
+
     
 }
