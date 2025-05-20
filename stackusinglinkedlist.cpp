@@ -106,5 +106,10 @@ int main()
                 << endl;
             }
             break;
+        case 3:
+            if (!stact.isEmpaty())
+            {
+                stact.peek();
+            }
+
         }
-}
